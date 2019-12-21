@@ -5,6 +5,7 @@ module.exports = {
             target: 'https://api.juooo.com',
             changeOrigin:true
         },
+<<<<<<< HEAD
         '/Schedule': { // 当浏览器发起 以 /goods 打头的请求时, 将请求转发给 localhost:5000 服务
           target: 'https://api.juooo.com',
           changeOrigin:true
@@ -20,3 +21,17 @@ module.exports = {
       }
     }
   }
+=======
+        '/Show':{
+          target:'https://api.juooo.com',
+          changeOrigin:true
+        },
+        '/home':{
+          target:'https://api.juooo.com',
+          changeOrigin:true
+        }    
+      }
+    }
+  }
+
+>>>>>>> 861441bce5c3c824620279c1acc9feb7cc894e81
