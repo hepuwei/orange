@@ -32,7 +32,7 @@ const routes = [
       component:() => import("../pages/piaojia"),
       meta: {
         flag: true,
-        requireAuth: false
+        requireAuth: true
       }
     },
     {
@@ -49,6 +49,15 @@ const routes = [
       component: () => import("../pages/login"),
       name: "login",
       meta: {
+        flag: false,
+        requireAuth: false
+      }
+    },
+    {
+      path:"/search",
+      name:"search",
+      component: ()=>import("../pages/search"),
+      meta:{
         flag: false,
         requireAuth: false
       }
