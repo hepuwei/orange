@@ -1,15 +1,16 @@
 <template>
-    <div  class="page">
+    <div class="page">
         juyuan
     </div>
 </template>
 
 <script>
 export default {
-    name:"juyuan"
+    name:"juyuan",
+    
 }
 </script>
 
 <style>
-    
+
 </style>

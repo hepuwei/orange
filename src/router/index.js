@@ -32,7 +32,7 @@ const routes = [
       component:() => import("../pages/piaojia"),
       meta: {
         flag: true,
-        requireAuth: false
+        requireAuth: true
       }
     },
     {
@@ -52,6 +52,11 @@ const routes = [
         flag: false,
         requireAuth: false
       }
+    },
+    {
+      path: "/yanchu",
+      name: "yanchu",
+      component: () => import("../pages/yanchu"),
     }
 ]
 
