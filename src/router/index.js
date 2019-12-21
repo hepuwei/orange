@@ -23,8 +23,10 @@ const routes = [
       component:() => import("../pages/juyuan"),
       meta: {
         flag: true,
-        requireAuth: false
-      }
+        requireAuth: false,
+        
+      },
+      
     },
     {
       path:"/piaojia",
@@ -32,7 +34,7 @@ const routes = [
       component:() => import("../pages/piaojia"),
       meta: {
         flag: true,
-        requireAuth: false
+        requireAuth: true,
       }
     },
     {
@@ -52,6 +54,16 @@ const routes = [
         flag: false,
         requireAuth: false
       }
+    },
+    {
+      path:'/juyuan_detail',
+      name:'juyuan_detail',
+      component:() => import("../pages/juyuan_detail"),
+    },
+    {
+      path:'/vip',
+      name:'vip',
+      component:() => import("../pages/vip"),
     }
 ]
 
