@@ -16,7 +16,9 @@ body,html{
 a { color:#666; text-decoration:none; }
 /*清除浮动*/
 .clear{clear:both}
-*{box-sizing:border-box}
+*{box-sizing:border-box;
+    font-size:0.12rem;
+}
 body,html{
     height: 100%;
     overflow: hidden;
