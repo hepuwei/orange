@@ -41,6 +41,9 @@
             </div>
             
         </div>
+    <div class="page">
+        juyuan
+
     </div>
 </template>
 
@@ -208,4 +211,3 @@
         font-size:0.15rem;
         font-weight:500;
     }
-</style>

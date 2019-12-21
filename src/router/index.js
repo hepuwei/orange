@@ -30,14 +30,17 @@ const routes = [
           path:"/juyuanshowlist",
           name:"juyuanshowlist",
           component:()=>import("../pages/juyuanshowlist"),
-    },
+        requireAuth: false,
+        
+      },
+      
     {
       path:"/piaojia",
       name:"piaojia",
       component:() => import("../pages/piaojia"),
       meta: {
         flag: true,
-        requireAuth: false
+        requireAuth: true
       }
     },
     {
@@ -72,6 +75,28 @@ const routes = [
       path: "/register",
       component: () => import("../pages/register"),
       name: "register",
+      path:'/juyuan_detail',
+      name:'juyuan_detail',
+      component:() => import("../pages/juyuan_detail"),
+    },
+    {
+      path:'/vip',
+      name:'vip',
+      component:() => import("../pages/vip"),
+    },
+    {
+      path: "/yanchu",
+      name: "yanchu",
+      component: () => import("../pages/yanchu"),
+    },
+    {
+      path:"/search",
+      name:"search",
+      component: ()=>import("../pages/search"),
+      meta:{
+        flag: false,
+        requireAuth: false
+      }
     }
 ]
 
