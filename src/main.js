@@ -7,6 +7,10 @@ import VueTouch from 'vue-touch';
 import '../public/css/swiper.min.css'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+import '../src/common/index';
+
+Vue.prototype.$observer = new Vue();
+
 Vue.use(VueAwesomeSwiper)　　
 Vue.config.productionTip = false
 Vue.use(VueTouch,{name:"v-touch"});

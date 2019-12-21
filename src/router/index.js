@@ -34,11 +34,7 @@ const routes = [
       component:() => import("../pages/piaojia"),
       meta: {
         flag: true,
-<<<<<<< HEAD
-        requireAuth: true,
-=======
         requireAuth: true
->>>>>>> 861441bce5c3c824620279c1acc9feb7cc894e81
       }
     },
     {
@@ -60,7 +56,6 @@ const routes = [
       }
     },
     {
-<<<<<<< HEAD
       path:'/juyuan_detail',
       name:'juyuan_detail',
       component:() => import("../pages/juyuan_detail"),
@@ -69,7 +64,13 @@ const routes = [
       path:'/vip',
       name:'vip',
       component:() => import("../pages/vip"),
-=======
+    },
+    {
+      path: "/yanchu",
+      name: "yanchu",
+      component: () => import("../pages/yanchu"),
+    },
+    {
       path:"/search",
       name:"search",
       component: ()=>import("../pages/search"),
@@ -77,7 +78,6 @@ const routes = [
         flag: false,
         requireAuth: false
       }
->>>>>>> 861441bce5c3c824620279c1acc9feb7cc894e81
     }
 ]
 

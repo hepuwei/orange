@@ -1,5 +1,5 @@
 <template>
-    <div  class="page">
+    <div class="page">
         juyuan
 
     </div>
@@ -7,10 +7,11 @@
 
 <script>
 export default {
-    name:"juyuan"
+    name:"juyuan",
+    
 }
 </script>
 
 <style>
-    
+
 </style>
