@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import './common/components'
 import VueTouch from 'vue-touch';
+
 import '../src/common/index';
 
 Vue.prototype.$observer = new Vue();

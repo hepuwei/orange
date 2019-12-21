@@ -59,6 +59,7 @@ const routes = [
       component: () => import("../pages/yanchu"),
     },
     {
+
       path:"/search",
       name:"search",
       component: ()=>import("../pages/search"),
