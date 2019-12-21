@@ -57,6 +57,15 @@ const routes = [
       path: "/yanchu",
       name: "yanchu",
       component: () => import("../pages/yanchu"),
+    },
+    {
+      path:"/search",
+      name:"search",
+      component: ()=>import("../pages/search"),
+      meta:{
+        flag: false,
+        requireAuth: false
+      }
     }
 ]
 

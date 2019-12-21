@@ -8,8 +8,12 @@ module.exports = {
         '/Show': {
             target: 'https://api.juooo.com',
             changeOrigin: true
-        }      
+        },      
+        '/home':{
+          target:'https://api.juooo.com',
+          changeOrigin:true
+        }    
       }
     }
   }
- 
+
